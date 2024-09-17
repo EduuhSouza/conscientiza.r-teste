@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ICONES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <!-- javascript MENU MOBILE -->
+<script src="menu.js" defer></script>
+    <!-- FIM javascript MENU MOBILE -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Conscientiza.r </title>
+</head>
+<body>
+    
+    
+    <header class="header">
+        <div class="logo-img">
+        <img src="imgs/logo.conscientiza.r.png" alt="">
+    </div>
+
+        <!-- DARKMODE   -->
+        <section class="darkmode">
+
+            <label>
+                <input id="check" type="checkbox" id="check">
+        
+                <i class="fa-solid fa-sun" id="sun"></i>
+                <i class="fa-solid fa-moon" id="moon"></i>
+        
+                <span class="toggle"></span>
+            </label>
+        
+        </section>
+    
+        <script>
+            const check = document.getElementById('check');
+        
+            check.addEventListener('click', () => {
+                document.body.classList.toggle('dark-mode');
+            })
+        
+        
+        </script>
+
+    <nav class="navbar">
+       
+        <a href=""> Inicio </a>
+        <a href=""> Pessoa 1 </a>
+        <a href=""> Pessoa 2 </a>
+        <a href=""> Pessoa 3 </a>
+    </nav>
+
+
+    
+<!-- MOBILE -->
+
+<div class="btn-abrir-menu" id="btn-menu"> <!-- COMEÇO ABRIR MENU -->
+    <i class="fa-solid fa-bars"></i>
+</div> <!-- FINAL ABRIR MENU -->
+
+
+<div class="menu-mobile" id="menu-mobile"> <!-- COMEÇO MENU MOBILE-->
+    <div class="btn-fechar">
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+
+    <nav class="mobile-nav">  <!-- COMEÇO NAVBAR MENU -->
+        <a href=""> Inicio </a>
+        <a href=""> Pessoa 1 </a>
+        <a href=""> Pessoa 2 </a>
+        <a href=""> Pessoa 3 </a>
+    </nav> <!-- FINAL NAVBAR MENU -->
+    
+</div> <!-- FINAL MENU MOBILE-->
+<div class="overlay-menu" id="overlay-menu"></div>
+
+<!-- FIM MOBILE -->
+</header>
+
+
+<!-- PARALLAX -->
+
+<div class="wrapper" id="inicio">
+    
+    <section class="modulo parallax parallax-1">
+    </section>
+
+    <section class="modulo content">
+        <div class="container">
+            <h2> Origem </h2>
+            <p> A origem do <span>Setembro Amarelo </span>e as ações de conscientização contra suicídio surgiram com a história de <span>Mike Emme</span>, um jovem de apenas 17 anos que morava nos Estados Unidos. O adolescente era conhecido por ser carinhoso e ter habilidade com a mecânica, tendo como marca um <span>Mustang 1968 amarelo</span>, restaurado e pintado por ele mesmo. </p>
+
+            <p>Mas, em 1994, Mike cometeu suicídio. E, na época, familiares e amigos de Mike não conseguiram identificar os sinais de que ele pensava tirar a própria vida. </p>
+        </div>
+</section>
+
+</div>
+
+<!-- FIM PARALLAX -->
+
+
+
+
+<!-- ACESSIBILIDADE -->
+<script src="https://cdn.userway.org/widget.js" data-account="kCDHqw9ltL"></script>
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+
+<!-- LIBRAS -->
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+
+</body>
+</html>
+
+</body>
+</html>
