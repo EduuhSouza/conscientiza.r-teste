@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar{
+    width: 15px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--amarelo);
+    border-radius: 2em;
+}
+
+
+/* ROOT CORES */
+
+:root {
+    --amarelo: #f2b90c;
+    --amarelo-dark: #d9910b;
+    --amarelo-claro: #f2d272;
+    --cinza: rgb(53, 52, 52);
+}
+
+
+body{
+    background-image: url(https://i.pinimg.com/originals/d7/33/34/d733345e4f11231904e7634a04439e21.gif);
+     background-repeat: no-repeat;
+    background-size: cover; 
+    background-image: fixed;
+}
+
+
+@media screen and (max-width: 1020px) {
+
+/* TITULO  */
+.titulo h1{
+    text-align: center;
+    background: var(--amarelo);
+    padding: 1em;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+/* CONTAINER */
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: .5em;   
+}
+
+    }
+
+
+
+/* TITULO  */
+.titulo h1{
+    text-align: center;
+    background: var(--amarelo);
+    padding: 1em;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+/* CONTAINER */
+
+
+.container{
+    display: flex;
+    margin: .5em; 
+}
+
+/* BOX FUNDO */
+.box{
+    margin-left: 1em;
+    width: 90%;
+    height: 50%;
+    background-color: black;
+    padding: 2em;
+    border: solid black;
+    border-radius: 1em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10em;
+    transition: all .5s ease-in-out;
+}
+
+.box:hover{
+    background-color: rgba(0, 0, 0, 0.671);
+    color: var(--amarelo);
+}
+
+/* FOTO DEVS */
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto img{
+    width: 100%;
+}
+
+
+/* NOME */
+.nome{
+    text-align: center;
+    margin-top: 1em;
+}
+
+.nome h1{
+    color: var(--amarelo);
+    font-family: sans-serif;
+    text-shadow: 0 0 10px var(--amarelo);
+}
+
+/* FRASE  */
+
+.frase p{
+margin-top: 2em;
+font-size: 1.5em;
+font-family: sans-serif;
+/* width: 100%; */
+}
+
+/* ICONES */
+
+.icons{
+    text-align: center;
+    margin-top: 1em;
+    font-size: 3em;
+}
+
+.icons i{
+    transition: all .5s ease-in-out;
+    font-size: 1em;
+}
+
+.icons i:hover{
+    color: white;
+    /* text-shadow: 0 0 10px var(--amarelo-dark); */
+}
+
