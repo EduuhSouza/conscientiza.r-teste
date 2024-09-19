@@ -30,7 +30,7 @@
 
 
 body{
-    background-image: url(https://i.pinimg.com/originals/d7/33/34/d733345e4f11231904e7634a04439e21.gif);
+    background-image: url(https://wallpaperaccess.com/full/1700974.jpg);
      background-repeat: no-repeat;
     background-size: cover; 
     background-image: fixed;
@@ -141,9 +141,10 @@ font-family: sans-serif;
     font-size: 3em;
 }
 
-.icons i{
+.icons a i{
     transition: all .5s ease-in-out;
     font-size: 1em;
+    color: var(--amarelo);
 }
 
 .icons i:hover{
