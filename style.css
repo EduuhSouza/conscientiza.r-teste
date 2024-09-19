@@ -206,6 +206,9 @@ justify-content: end;
     border: solid 1px  #d9910b;
     box-shadow: 0 0 10px #d9910b;
  }
+.dark-mode .reforco{
+    color: white;
+}
 
 .titulozinho{
     text-align: center;
