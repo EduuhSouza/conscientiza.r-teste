@@ -406,6 +406,28 @@ section.modulo.parallax:after{
         background-image: url(https://website.cfo.org.br/wp-content/uploads/2023/09/set.amarelo-site-1024x576.jpg);
     }
 
+    /* Parallax Importancia */
+    .items {
+        display: flex; /* Usando flexbox para dispor os itens lado a lado */
+        justify-content: space-around; /* Espaço entre os itens */
+        flex-wrap: wrap; /* Permite que os itens se movam para a linha de baixo em telas menores */
+    }
+    .item {
+        margin: 20px; /* Espaçamento entre os itens */
+        text-align: center; /* Centraliza o texto */
+    }
+    .icon {
+        font-size: 50px; /* Tamanho dos ícones */
+        margin-bottom: 10px; /* Espaçamento abaixo dos ícones */
+    }
+    @media (max-width: 768px) {
+        .modulo.parallax {
+            height: 70vh; /* Ajuste a altura para dispositivos móveis */
+        }
+        .icon {
+            font-size: 40px; /* Tamanho dos ícones em dispositivos móveis */
+        }
+    }
 
     /* TEXTOS IMOPRTANCIA */
 
