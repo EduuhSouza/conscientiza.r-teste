@@ -195,6 +195,55 @@ justify-content: end;
 }
 
 
+/* <----REFORÇO */
+
+ .reforco{
+    font-family: sans-serif;
+
+    columns: 3;
+    
+
+    border: solid 1px  #d9910b;
+    box-shadow: 0 0 10px #d9910b;
+ }
+
+.titulozinho{
+    text-align: center;
+    color: #000000;
+
+    font-size: 3em;
+    font-family: sans-serif;
+}
+
+.hh{
+    margin: 1em;
+}
+
+.pp{
+    font-family: sans-serif;
+}
+
+span{
+    color: #d9910b;
+}
+
+ /* <-----responsivo reforço-----> */
+
+/* Responsividade para telas menores (como celulares) */
+@media screen and (max-width: 768px) {
+    .reforco {
+        columns: 1; /* Coloca os elementos em uma única coluna */
+    }
+
+    .titulozinho {
+        font-size: 2em; /* Ajuste do tamanho do texto para se adequar a telas menores */
+    }
+}
+
+/* <-----------------------------> */
+
+
+
 /* OVERLAY MENU */
 
 .overlay-menu{
@@ -494,3 +543,5 @@ section.modulo.parallax:after{
     .texto-imp span{
         color: var(--amarelo);   
 }
+
+
