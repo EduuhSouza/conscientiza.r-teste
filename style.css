@@ -221,6 +221,7 @@ justify-content: end;
 
 .pp{
     font-family: sans-serif;
+     color: var(--branco);
 }
 
 span{
