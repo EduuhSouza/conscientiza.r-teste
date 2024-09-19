@@ -41,21 +41,23 @@ body{
 /*---------LOGO NAVBAR ----------  */
 
 .logo-img img{
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    margin-left: -52%;
-    border-radius: 30%;
-    box-shadow: 0 10px 30px var(--amarelo-dark);
-    z-index: 1;
-    top: 1em;
-    transition: all .5s ease-in-out;
-    background-color: white;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        margin-left: -52%;
+        border-radius: 30%;
+        box-shadow: 0 10px 30px var(--amarelo-dark);
+        z-index: 1;
+        top: 1em;
+        transition: all .5s ease-in-out;
+        background-color: white;
+    }
+    
+.logo-img img:hover{
+        width: 170px;
+    
 }
 
-.logo-img img:hover{
-    width: 170px;
-}
 
 /* CABEÇALHO NAVBAR*/
 
@@ -403,3 +405,24 @@ section.modulo.parallax:after{
         
         background-image: url(https://website.cfo.org.br/wp-content/uploads/2023/09/set.amarelo-site-1024x576.jpg);
     }
+
+
+    /* TEXTOS IMOPRTANCIA */
+
+    .titulo-imp{
+        margin-top: 3em;
+        font-size: 1.6em;
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+    .texto-imp{
+        font-family: sans-serif;
+        text-align: center;
+        margin: 1em;
+        font-size: 1.5em;
+    }
+
+    .texto-imp span{
+        color: var(--amarelo);   
+}
