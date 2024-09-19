@@ -217,6 +217,9 @@ justify-content: end;
     font-size: 3em;
     font-family: sans-serif;
 }
+.dark-mode{
+    color: white;
+}
 
 .hh{
     margin: 1em;
