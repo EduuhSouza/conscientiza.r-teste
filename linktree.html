@@ -4,6 +4,12 @@
 
     <!-- ICONES -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="shortcut icon" href="imgs/logo.conscientiza.r.png">
+
+        <!-- javascript MENU MOBILE -->
+<script src="menu.js" defer></script>
+<!-- FIM javascript MENU MOBILE -->
 
 <link rel="stylesheet" href="linktree.css">
     <meta charset="UTF-8">
@@ -11,6 +17,74 @@
     <title>Desenvolvedores</title>
 </head>
 <body>
+
+
+    <header class="header">
+        <div class="logo-img">
+        <img src="imgs/logo.conscientiza.r.png" alt="">
+    </div>
+
+        <!-- DARKMODE   -->
+        <section class="darkmode">
+
+            <label>
+                <input id="check" type="checkbox" id="check">
+        
+                <i class="fa-solid fa-sun" id="sun"></i>
+                <i class="fa-solid fa-moon" id="moon"></i>
+        
+                <span class="toggle"></span>
+            </label>
+        
+        </section>
+    
+        <script>
+            const check = document.getElementById('check');
+        
+            check.addEventListener('click', () => {
+                document.body.classList.toggle('dark-mode');
+            })
+        
+        
+        </script>
+
+    <nav class="navbar">
+       
+        <a href="idnex.html"> Inicio </a>
+        <a href="pesquisa.html"> Relatos </a>
+        <a href="gabriel-m.html"> Gabriel Medina </a>
+        <a href=""> Pessoa 2 </a>
+        <a href=""> Pessoa 3 </a>
+    </nav>
+
+
+    
+<!-- MOBILE -->
+
+<div class="btn-abrir-menu" id="btn-menu"> <!-- COMEÇO ABRIR MENU -->
+    <i class="fa-solid fa-bars"></i>
+</div> <!-- FINAL ABRIR MENU -->
+
+
+<div class="menu-mobile" id="menu-mobile"> <!-- COMEÇO MENU MOBILE-->
+    <div class="btn-fechar">
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+
+    <nav class="mobile-nav">  <!-- COMEÇO NAVBAR MENU -->
+        <a href="idnex.html"> Inicio </a>
+        <a href="pesquisa.html"> Relatos </a>
+        <a href="gabriel-m.html"> Gabriel Medina </a>
+        <a href=""> Pessoa 2 </a>
+        <a href=""> Pessoa 3 </a>
+    </nav> <!-- FINAL NAVBAR MENU -->
+    
+</div> <!-- FINAL MENU MOBILE-->
+<div class="overlay-menu" id="overlay-menu"></div>
+
+<!-- FIM MOBILE -->
+</header>
+
 
     <div class="titulo">
         <h1>Desenvolvedores</h1>
@@ -114,7 +188,7 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum vel sunt nesciunt dicta inventore? Quidem impedit dolorum nihil architecto quis, ad, veritatis porro earum saepe, at quisquam cupiditate! Ad, dolore.
     </p>
     <div class="icons">
-        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/gabriel-mendes-95a028293/"><i class="fa-brands fa-linkedin"></i></a>
         <a href="https://github.com/Gabriel-V-Mendes"><i class="fa-brands fa-square-github"></i></a>
         <a href="https://www.instagram.com/gabriel_vale_mendes/"><i class="fa-brands fa-square-instagram"></i></a>
     </div>
@@ -173,6 +247,50 @@
 
     
 </div><!-- FIM CONTAINER -->
+
+<footer>
+    <div class="logo-footer">
+        <div class="titulos-footer">
+            <h2>Setembro</h2>
+            <h3>Ama</h3>
+            <h4>relo</h4>
+        </div>
+
+        <img src="fitafooter.png" alt="">
+    </div>
+
+    <div class="setembro">
+        <p><h2> Sobre o setembro amarelo<i class="bi bi-arrow-down"></i></h2></p>
+    </div>
+
+    <div class="sobre-setembro">
+
+        <div class="significado">
+            <h2>Oque é?</h2>
+        </div>
+
+        <p>O Setembro Amarelo surgiu com a ideia de quebrar tabus, reduzir estigmas, estimular que as pessoas
+            busquem e ofereçam ajuda. Desde 2015, quando ocorreu a primeira edição, ano a ano este movimento vem
+            crescendo com mais pessoas reconhecendo que falar sobre suicídio é fundamental, mas exige cuidados.</p>
+    </div>
+
+    <div class="precisar">
+        <h3>CVV (Centro de Valorização da Vida)</h3>
+        <h2>Se precisar, peça ajuda!</h2>
+        <p><i class="bi bi-telephone-inbound"></i> Disque <strong>188</strong></p>
+    </div>
+
+    <div class="logo-pao">
+        <img src="logo-pao.png" alt="">
+    </div>
+
+
+    <div class="desenvolvedores">
+        <a href="linktree.html"><h2>Desenvolvedores <i class="bi bi-arrow-down"></i></h2></a>
+        <p>Desenvolvido pela equipe <strong>Conscientiza.r</strong> | Fundação Pão dos Pobres | 2024&copy;</p>
+    </div>
+</footer>
+
 
 
 
