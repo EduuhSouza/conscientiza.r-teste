@@ -1,4 +1,9 @@
 @charset "utf-8";
+@font-face {
+    font-family: fonte1;
+    src: url(Breathney\ Demo.ttf);
+}
+
 
 
 /* SCROLLBAR */
@@ -460,10 +465,11 @@ footer {
     box-shadow: 0 0 50px #fff;
 }
 
+
 .titulos-footer h2 {
     font-family: fonte1;
     margin-left: 18%;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .titulos-footer h3 {
@@ -471,7 +477,7 @@ footer {
     font-family: sans-serif;
     text-transform: uppercase;
     font-weight: 800;
-    margin-top: -22px;
+    margin-top: -38px;
     font-size: 35px;
 }
 
@@ -480,9 +486,10 @@ footer {
     font-family: sans-serif;
     text-transform: uppercase;
     font-weight: 800;
-    margin-top: -15px;
+    margin-top: -16px;
     font-size: 35px;
 }
+
 
 .logo-footer img {
     height: 220px;
