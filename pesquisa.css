@@ -269,7 +269,7 @@ justify-content: end;
 
 /* textos */
 .titulo-nome{
-    color: var(--amarelo-claro);
+    color: #000;
 }
 
 .dark-mode .texto{
