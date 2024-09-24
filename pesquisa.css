@@ -438,11 +438,11 @@ section.modulo.parallax:after{
 .titulo-nome{
     font-size: 1.5em;
     font-family: sans-serif;
-    color: #000;
+    color: black;
 }
 
 .titulo-nome h1{
-    color: #000;
+    color: black;
 }
 
 .texto{
