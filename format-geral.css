@@ -459,7 +459,7 @@ footer {
 .titulos-footer h2 {
     font-family: fonte1;
     margin-left: 18%;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .titulos-footer h3 {
@@ -467,7 +467,7 @@ footer {
     font-family: sans-serif;
     text-transform: uppercase;
     font-weight: 800;
-    margin-top: -22px;
+    margin-top: -38px;
     font-size: 35px;
 }
 
@@ -476,7 +476,7 @@ footer {
     font-family: sans-serif;
     text-transform: uppercase;
     font-weight: 800;
-    margin-top: -15px;
+    margin-top: -16px;
     font-size: 35px;
 }
 
