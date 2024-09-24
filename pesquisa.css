@@ -267,10 +267,6 @@ justify-content: end;
     text-align: center;
 }
 
-/* textos */
-.titulo-nome{
-    color: #000;
-}
 
 .dark-mode .texto{
    color: white;
@@ -442,6 +438,11 @@ section.modulo.parallax:after{
 .titulo-nome{
     font-size: 1.5em;
     font-family: sans-serif;
+    color: #000;
+}
+
+.titulo-nome h1{
+    color: #000;
 }
 
 .texto{
