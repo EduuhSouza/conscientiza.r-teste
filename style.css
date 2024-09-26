@@ -249,6 +249,11 @@ span{
     .titulozinho {
         font-size: 2em; /* Ajuste do tamanho do texto para se adequar a telas menores */
     }
+    
+     .dropdown{
+       visibility: hidden;
+       margin-left: -2em;
+}
 }
 
 /* <-----------------------------> */
@@ -300,7 +305,7 @@ span{
         width: 40%;
 
     }
-}
+
 }
 
 
